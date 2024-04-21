@@ -1,9 +1,14 @@
 plugins {
+    id("application")
     id 'java'
 }
 
 group = 'org.example'
 version = '1.0-SNAPSHOT'
+
+application {
+    mainClassName = 'Main'
+}
 
 repositories {
     mavenCentral()
@@ -17,4 +22,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+
+    testLogging {
+        events "failed", "passed", "skipped", "standardError","standardOut"
+    }
 }
