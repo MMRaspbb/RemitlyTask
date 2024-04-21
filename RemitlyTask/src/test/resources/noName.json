@@ -1,0 +1,13 @@
+{
+  "PolicyDocument": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "FirstStatement",
+        "Effect": "Allow",
+        "Action": ["iam:ChangePassword"],
+        "Resource": "*"
+      }
+    ]
+  }
+}
