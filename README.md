@@ -8,4 +8,4 @@ Write a method verifying the input JSON data. Input data format is defined as AW
 4. Type *./gradlew run --args="path to file from the project root or absolute path"*
 
 ## Running tests
-Copy the 3 first steps of Usage and run *./gradlew test
+Copy the 3 first steps of Usage and run *./gradlew test*
