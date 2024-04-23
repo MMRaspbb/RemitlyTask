@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JsonVerifierTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2024-04-23T13:31:27" hostname="LAPTOPMM" time="0.132">
+  <properties/>
+  <testcase name="notStringOrArrayOfStringsPrincipal()" classname="JsonVerifierTest" time="0.053"/>
+  <testcase name="invalidDayVersion()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="versionNotString()" classname="JsonVerifierTest" time="0.001"/>
+  <testcase name="simpleNoSid()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="contectsOfPrincipalArrayNotString()" classname="JsonVerifierTest" time="0.003"/>
+  <testcase name="noPolicyName()" classname="JsonVerifierTest" time="0.001"/>
+  <testcase name="simpleCorrect()" classname="JsonVerifierTest" time="0.004"/>
+  <testcase name="sidNotUnique()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="effectNotAllowOrDeny()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="invalidMonthVersion()" classname="JsonVerifierTest" time="0.001"/>
+  <testcase name="simpleSidNotString()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="complexNoSid()" classname="JsonVerifierTest" time="0.001"/>
+  <testcase name="noPolicyDocument()" classname="JsonVerifierTest" time="0.001"/>
+  <testcase name="complextCorrect()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="noAction()" classname="JsonVerifierTest" time="0.003"/>
+  <testcase name="noEffect()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="contectsOfActionArrayNotString()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="actionNotAStringNorArrayOfStrings()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="conditionNotString()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="noResource()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="noVersion()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="resourceNotString()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="notObjectPolicyDocument()" classname="JsonVerifierTest" time="0.001"/>
+  <testcase name="complexSidNotString()" classname="JsonVerifierTest" time="0.002"/>
+  <testcase name="notStringPolicyName()" classname="JsonVerifierTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

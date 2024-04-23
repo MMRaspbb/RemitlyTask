@@ -1,0 +1,4 @@
+{
+  "PolicyName": "name",
+  "PolicyDocument": "string instead of object"
+}
